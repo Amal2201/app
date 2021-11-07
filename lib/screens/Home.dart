@@ -6,7 +6,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var menu;
+    
     return Scaffold(
       appBar: AppBar(
         title: Text('This is the title'),

@@ -1,4 +1,4 @@
-import 'dart:html';
+
 
 import 'package:flutter/material.dart';
 class ArticleItem extends StatefulWidget {
@@ -11,7 +11,7 @@ class _ArticaleItemState extends State<ArticleItem> {
 bool isSelected = false;
   @override
   Widget build(BuildContext context) {
-    var fontWeight;
+    
     return Container(
       color : Colors.blue[200],
       padding: EdgeInsets.all(8),
